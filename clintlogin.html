@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .parent{
+            background: linear-gradient(rgb(183, 16, 169),rgb(0, 191, 255),rgb(229, 211, 8));
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+        }
+        .table{
+            width: 30%;
+            height: 450px;
+            position: relative;
+            top: 60px;
+            left: 450px;
+            background-color: transparent;
+            border: 2px solid black;
+        }
+        .a{
+            width: 100%;
+            background-color: black;
+            height: 60px;
+            text-align: center;
+        }
+        .a span{
+            color: whitesmoke;
+            font-size: 30px;
+            line-height: 60px;
+        }
+        .b{
+            background-color: rgb(rgb(199, 47, 184), rgb(128, 0, 100), rgb(227, 182, 217));
+            width: 100%;
+            height: 330px;
+        }
+        .oms{
+            text-align: center;
+            margin-top: 3px;
+        }
+        .oms span{
+            color: white;
+            font-size: 13px;
+            line-height: 8px;
+        }
+        .circle{
+            background-color: white;
+            height: 10px;
+            margin-top: 5px;
+            width: 10px;
+            border-radius: 50%;
+            margin-left: 127px;
+            float: left;
+        }
+        .line{
+            background-color: white;
+            height: 3px;
+            width: 40px;
+            float: left;
+            margin-left: -3px;
+            margin-top: 8px;
+        }
+        .g{
+            margin-left: 0px;
+        }
+        .col{
+            background-color: black;
+            margin-left: 1px;
+        }
+        .colo{
+            background-color: black;
+            margin-left: 0px;
+        }
+        .username input{
+            margin-top: 20px;
+        }
+        .username i{
+            position: relative;
+            top: 44px;
+            left: -270px;
+        }
+        .passkey i{
+            position: relative;
+            top: 3px;
+            left: 12px;
+        }
+        .passkey input{
+            margin-top: 20px;
+            margin-left: -13px;
+        }
+        .b:hover .username i{
+            font-size: 20px;
+        }
+        .b:hover .passkey i{
+            font-size: 20px;
+        }
+        .remaind{
+            float: left;
+            margin-top: 10px;
+            margin-left: 19px;
+        }
+        .remaind span{
+            margin-left: 125px;
+        }
+        .login{
+            background-color: purple;
+            width: 80%;
+            height: 30px;
+            margin: 40px 0px 0px 40px;
+            line-height: 30px;
+            box-shadow: 0px 5px 0px  pink;
+        }
+        .line2{
+            background-color: white;
+            height: 3px;
+            width: 130px;
+            line-height: 3px;
+            margin-left: 123px;
+            margin-top: 18px;
+        }
+        .text{
+            color: white;
+            margin-top: 5px;
+        }
+        .face{
+            background-color: blue;
+            height: 32px;
+            width: 23%;
+            line-height: 28px;
+            box-shadow: 2px 7px 3px rgb(44, 44, 177);
+            margin-top: 8px;
+            margin-left: 55px;
+            float: left;
+
+        }
+        .twi{
+            background-color: rgb(69, 196, 228);
+            height: 32px;
+            width: 23%;
+            line-height: 28px;
+            float: left;
+            box-shadow: 2px 7px 3px rgb(69, 188, 221);
+            margin-top: 9px;
+            margin-left: 75px;
+        }
+        .c{
+            width: 100%;
+            height: 44px;
+            line-height: 44px;
+            background-color: rgb(154, 110, 96);
+
+        }
+        .c pre{
+            margin-left: 19px;
+        }
+        .signup{
+            background-color: green;
+            width: 20%;
+            height: 30px;
+            line-height: 30px;
+            float: left;
+            text-align: center;
+            margin-left: 270px;
+            margin-top: -50px;
+        }
+
+        
+    
+    </style>
+<body>
+    <div class="parent">
+        <div class="table">
+            <div class="a"><span>Client Login</span></div>
+            <div class="b">
+                <div class="oms">
+                    <span>You are almost done! One more step </span><br>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle g"></div>
+                    <div class="line col"></div>
+                    <div class="circle colo"><br></div>
+                  <div> 
+                    <div class="username">
+                        <i class="fa-solid fa-user"></i> <input type="text" placeholder="        Username" size="45" style="height: 25px;">
+                    </div>
+                    <div class="passkey">
+                        <i class="fa-solid fa-key"></i> <input type="text" placeholder="        Password" size="45" style="height: 25px;">
+                    </div>
+                    <div class="remaind">
+                        <input type="checkbox" name="" id="">Remember me <span>Forgot password?</span>  
+                    </div>
+                  </div>
+                  <div class="login">Login 
+                  </div>
+                  <div class="line2"></div>
+                  <div class="text">Login with your facebook or twitter account</div>
+                
+                <div class="face">Facebook</div>
+                <div class="twi">Twitter</div>
+                </div>
+            </div>
+            <div class="c">
+            <div><pre>Want  New   Account </pre>
+                <div class="signup">Sign Up</div>
+            </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

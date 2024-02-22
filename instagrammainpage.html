@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            margin: 0;
+            background-color: #000000;
+        }
+        .parent{
+            padding: 1px 1px;
+            width: 100%;
+            height: 200vh;
+            background-color: black;
+        }
+        .block1{
+            width: 23%;
+            float: left;
+            height: 200vh;
+            background-color: black;
+            border: 2px sloid rgba(148, 120, 120,0.619);
+            color: white;
+        }
+        .insta{
+            margin: 45px 0px 0px 25px;
+        }
+        .home{
+            margin: 25px 0px 0px 25px;
+        }
+        .abc{
+            margin-left: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .pro{
+                margin: 25px 0px 0px 25px;
+        }
+        .block2{
+            width: 40%;
+            float: left;
+            height: 200vh;
+            background-color: black;
+            color: white;
+            margin-left: 15px;
+        }
+
+        .block3{
+            width: 30%;
+            height: 200vh;
+            float: left;
+            background-color: black;
+            color: white;
+        }
+        .box1{
+                width: 100%;
+                border: 2px solid  rgba(158, 131, 131, 0.705);
+                height: 70px;
+                padding: 1px 1px;
+                background-color: #000000;
+                margin: 45px 0px 0px 0px ;
+        }
+        .circle{
+            background: linear-gradient( to right, red,orange);
+            border: 3px solid transparent;
+            height: 50px;
+            margin-top: 5px;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: 20px;
+            float: left;
+        }
+        .image{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: black;
+        }
+        .psg{
+            position: relative;
+            background-image: url(psg.png);
+            background-size: 100%;
+            background-color: blue;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        .mbappe{
+            position: relative;
+            background-image: url(govindinsta.png);
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            
+        }
+        .box2{
+                width: 100%;
+                border: 2px solid  rgba(149, 120, 120, 0.619);
+                height: 800px;
+                padding: 1px 1px;
+                background-color: #000000;
+                margin: 5px 0px 0px 0px ;
+                float: left;
+        }
+        .circle2{
+            background: linear-gradient( to right, red,orange);
+            border: 2px solid transparent;
+            height: 20px;
+            margin-top: 5px;
+            width: 20px;
+            border-radius: 50%;
+            margin-left: 20px;
+            float: left;
+        }
+        .image2{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: black;
+            float: left;
+        }
+        .now a{
+            float: left;
+            position: relative;
+            top: 13px;
+            left: 10px;
+            font-size: 12px;
+
+        }
+        .line{
+            border: 1px solid  rgba(149, 120, 120, 0.619);
+            width: 100%;
+            margin-top: 50px;
+        }
+        .post{
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            background-image: url(tfpost.heic);
+            background-size: 100% 600px;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 70px;
+        }
+        .sym{
+            font-size: 23px;
+            margin-top: -50px;
+            margin-left: 10px;
+        }
+        .likes{
+            margin-top: -38px;
+            margin-left: 10px;
+        }
+        .caption{
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        .view{
+            margin-left: 10px;
+            margin-top: 10px;
+            color: gray;
+        }
+        .time{
+            margin-left: 10px;
+            font-size: 10px;
+            color: gray;
+            margin-top: 10px;
+        }
+        .line2{
+            border: 1px solid  rgba(149, 120, 120, 0.619);
+            width: 100%;
+            margin-top: 20px;
+        }
+        .addc{
+            font-size: 25px;
+            margin-top: -15px;
+            margin-left: 10px;
+            color: gray;
+        }
+        .a{
+            background-color: #000000;
+            width: 100%;
+            height: auto;
+
+        }
+        .a1{
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-image: url(govindinsta.png);
+            background-size: 50px 50px;
+            background-repeat: no-repeat;
+            margin-top: 50px;
+            margin-left: 30px;
+            float: left;
+        }
+        .a2{
+            float: left;
+            margin: 60px 0px 0px 15px; 
+        }
+        .a3{
+            float: left;
+            margin: 70px 0px 0px 60px;
+        }
+        .ssug{
+            float: left;
+            margin: 0px 0px 0px 0px;
+        }
+        .b1{
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-image: url(govindinsta.png);
+            background-size: 50px 50px;
+            background-repeat: no-repeat;
+            margin-top: 50px;
+            margin-left: 30px;
+            float: left;
+        }
+        .b2{
+            float: left;
+            margin: 60px 0px 0px 15px; 
+        }
+        .b3{
+            float: left;
+            margin: 70px 0px 0px 60px;
+        }
+        
+        
+        
+        
+        
+    </style>
+<body>
+    <div class="parent">
+        <div class="block1">
+            <div class="insta"><img src="whiteinstagram.png" height="50px" width="120px"></div>
+            <div class="home"><i class="fa-solid fa-house" style="color: #ffffff;"></i><a class="abc">Home</a></div>
+            <div class="home"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i><a class="abc">Search</a></div>
+            <div class="home"><i class="fa-solid fa-compass" style="color: #ffffff;"></i><a class="abc">Explore</a></div>
+            <div class="home"><i class="fa-solid fa-film" style="color: #ffffff;"></i><a class="abc">Reels</a></div>
+            <div class="home"><i class="fa-brands fa-facebook-messenger" style="color: #ffffff;"></i><a class="abc">Messages</a></div>
+            <div class="home"><i class="fa-solid fa-heart" style="color: #ffffff;"></i><a class="abc">Notifications</a></div>
+            <div class="home"><i class="fa-solid fa-square-plus" style="color: #ffffff;"></i><a class="abc">Create</a></div>
+            <div class="pro"><img src="govindinsta.png" alt="" style="height=20px "width=20px ;"><a class="abc">Profile</a></div>
+            <div class="home"><i class="fa-solid fa-bars" style="color: #ffffff;"></i><a class="abc">More</a></div>
+        </div>
+        <div class="block2">
+            <div class="box1">
+                <div class="circle">
+                    <div class="image"><div class="psg"></div></div>
+                </div>
+                <div class="circle">
+                    <div class="image"><div class="mbappe"></div></div>
+                </div>
+                <div class="circle">
+                    <div class="image"><div class="mbappe"></div></div>
+                </div>
+                <div class="circle">
+                    <div class="image"><div class="mbappe"></div></div>
+                </div>
+                <div class="circle">
+                    <div class="image"><div class="mbappe"></div></div>
+                </div>
+                <div class="circle">
+                    <div class="image"><div class="mbappe"></div></div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="tfhd">
+                    <div class="circle2"><div class="image2"></div></div></div>
+                    <div class="now"><a>Talk Football Hd</a></div>
+                <div class="line"></div>
+                <div class="post"></div>
+                <div class="sym"><pre><i class="fa-solid fa-heart" style="color: #ffffff;"></i>  <i class="fa-solid fa-comment" style="color: #ffffff;"></i>  <i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i>                         <i class="fa-solid fa-bookmark" style="color: #ffffff;"></i></pre><br></div>
+                <div class="likes">8,334 Likes</div>
+                <div class="caption"><b>Onefootball</b>Messi's record in europe are true unmatchable .(Real Goat)</div>
+                <div class="view">View all 69 comments</div>
+                <div class="time">16 minutes ago</div>
+                <div class="line2"></div>
+                <div class="addc"><pre><i class="fa-solid fa-face-smile" style="color: #ffffff;"></i>  <font size="4"> Add a comment.....</font>               <font color="blue" size="4">Post</font></pre></div>
+                
+            </div>
+        </div>
+        <div class="block3">
+                <div class="a">
+                    <div class="a1">
+                        <!-- <img src="govindinsta.png" alt="" style="height=60px "width=60px ;"> -->
+                    </div>
+                    <div class="a2"><font color="gray" size="3">_goaylgovind_1401<br>Govind Goyal
+                    </font></div>
+                    <div class="a3"><font color="blue" size="4">Switch</font></div>
+                    <br><div class="ssug"><pre><font color="gray">Suggested for you</font>       <font color="blue">See all</font></pre></div>
+                    <div class="b1"></div>
+                    <div class="b2"><font color="gray" size="3">_goaylgovind_1401<br>Govind Goyal
+                    </font></div>
+                    <div class="b3"><font color="blue" size="4">Follow</font></div>
+                    <div class="b1"></div>
+                    <div class="b2"><font color="gray" size="3">_goaylgovind_1401<br>Govind Goyal
+                    </font></div>
+                    <div class="b3"><font color="blue" size="4">Switch</font></div>
+                    <div class="b1"></div>
+                    <div class="b2"><font color="gray" size="3">_goaylgovind_1401<br>Govind Goyal
+                    </font></div>
+                    <div class="b3"><font color="blue" size="4">Switch</font></div>
+                
+                    <div class="b1"></div>
+                    <div class="b2"><font color="gray" size="3">_goaylgovind_1401<br>Govind Goyal
+                    </font></div>
+                    <div class="b3"><font color="blue" size="4">Switch</font></div>
+                
+                
+                    <div class="b1"></div>
+                    <div class="b2"><font color="gray" size="3">_goaylgovind_1401<br>Govind Goyal
+                    </font></div>
+                    <div class="b3"><font color="blue" size="4">Switch</font></div>
+                            
+                    <div class="b1"></div>
+                    <div class="b2"><font color="gray" size="3">_goaylgovind_1401<br>Govind Goyal
+                    </font></div>
+                    <div class="b3"><font color="blue" size="4">Switch</font></div>
+
+                </div>
+
+        </div>
+    </div>  
+</body>
+</html>
